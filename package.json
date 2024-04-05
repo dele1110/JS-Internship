@@ -1,0 +1,37 @@
+{
+  "name": "async-race",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node bundle.js",
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://anvianvi.github.io/online-zooasync-race-2023/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://anvianvi.github.io/online-zooasync-race-2023/",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "gh-pages": "^4.0.0",
+    "prettier": "^2.8.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "node": "^18.20.1"
+  }
+}
